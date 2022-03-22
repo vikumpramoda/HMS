@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(images/hospital.jpg) no-repeat;
+  background-size: cover;
+}
+
+
+.back{
+   position: absolute;
+    left: 2px;
+    top: 18px;
+}
+
+.refresh{
+   position: absolute;
+    right: 2px;
+    top: 18px;
+}
+
+
+.box{
+  width: 1450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 100px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.mobileFooter{
+  visibility: hidden;
+}
+
+.profile__name {
+  margin-right: 1.5rem;
+}
+
+.profile__img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.w3-lobster {
+  font-family: "Lobster", Sans-serif;
+}
+
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+
+.btn.btn-rounded {
+    border-radius: 50px
+}
+
+.nav{
+  
+  top: 5px;
+  left: 0;
+  width: 100%;
+  
+}
+
+
+/** Tab Responsive*/
+
+@media screen and (max-width: 880px){
+.box{
+  width: 800px;
+  height: 750px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: -10%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  order: 1;
+}
+
+.destop{
+  visibility: hidden;
+}
+
+.mobileFooter{
+  visibility: visible;
+
+}
+
+}
+
+
+/** Mobile Responsive*/
+
+@media screen and (max-width: 550px){
+.box{
+  width: 500px;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: -35%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  order: 1;
+}
+
+.destop{
+  visibility: hidden;
+}
+
+.mobileFooter{
+  visibility: visible;
+
+}
+
+}
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find Patient </title>
+	<link rel="stylesheet" type="text/css" href="FindPatients.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+	
+</head>
+<body>
+				
+	<div class="row">
+		<p class="w3-xxxlarge w3-container w3-black w3-center w3-allerta">
+		<button type="button" class="btn btn-success back"> <i class="fas fa-arrow-circle-left"></i></button>
+		Find Patient
+		</p>
+	</div>
+
+<div  class="box">
+	
+	<label><h3>Patient Name</h3></label>
+    <input type="name" class="form-control"  placeholder="Type Name">	 
+
+	<h3>Ward</h3>
+
+	<select class="form-control" id="exampleFormControlSelect1">
+		<option>All</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+	<h3>Section</h3>
+
+	<select class="form-control" id="exampleFormControlSelect1">
+		<option>All</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+
+	<h3>Location</h3>
+
+	<select class="form-control" id="exampleFormControlSelect1">
+		<option>All</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+
+	<h3>Department</h3>
+
+	<select class="form-control" id="exampleFormControlSelect1">
+		<option>Department Name</option>
+      <option>Outpatient department (OPD)</option>
+      <option>Inpatient Service (IP)</option>
+      <option>Paramedical Department</option>
+      <option>Physical Medicine</option>
+      <option>Operation Theatre Complex (OT)</option>
+    </select>
+
+<br><br>
+<button type="button" class="btn btnfind btn-warning" onclick="window.location.href='PatientList.html'">Find</button>
+</div>
+</body>
+</html>

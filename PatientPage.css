@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(images/hospital.jpg);
+  background-size: cover;
+}
+
+
+body{
+	height: 100vh;
+	width: 100%;
+}
+
+.back{
+   position: absolute;
+    left: 2px;
+    top: 18px;
+}
+
+.refresh{
+   position: absolute;
+    right: 2px;
+    top: 18px;
+}
+
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+
+  .w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+
+
+.box{
+  width: 1450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 6%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.mobileFooter{
+  visibility: hidden;
+}
+
+
+
+
+/** Tab Responsive*/
+
+@media screen and (max-width: 880px){
+.box{
+  width: 950px;
+  height: 570px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: -10%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  order: 1;
+}
+
+.destop{
+  visibility: hidden;
+}
+
+.mobileFooter{
+  visibility: visible;
+
+}
+
+}
+
+/** Mobile Responsive*/
+
+@media screen and (max-width: 550px){
+.box{
+  width: 500px;
+  height: 1500px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: -20%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  order: 1;
+}
+
+.destop{
+  visibility: hidden;
+}
+
+.mobileFooter{
+  visibility: visible;
+
+}
+
+}
+
